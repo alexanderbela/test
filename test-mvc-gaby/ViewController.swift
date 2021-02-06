@@ -21,7 +21,7 @@ class Person {
 
 
 class ViewController: UIViewController {
-
+ 
     //var arrayUsers = ["gaby", "Aleu", "Cheque", "Juan", "Geraldo", "Ines", "Eila", "Min", "Alex", "Alexito"]
     var arrayUsers = ["gaby", "Aleu"]
     var arrayEmails = ["gaby@gmail.com", "alex@gmail.com"]
