@@ -18,6 +18,9 @@
 		8E31D6E025C625BA00F57DBA /* test_mvc_gabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31D6DF25C625BA00F57DBA /* test_mvc_gabyTests.swift */; };
 		8E31D6EB25C625BA00F57DBA /* test_mvc_gabyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31D6EA25C625BA00F57DBA /* test_mvc_gabyUITests.swift */; };
 		8EE0992F25CE335F00097C92 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0992E25CE335F00097C92 /* TableViewCell.swift */; };
+		8EE0996525D3756300097C92 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0996425D3756300097C92 /* NewViewController.swift */; };
+		8EE0996A25D3766C00097C92 /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0996925D3766C00097C92 /* NewTableViewCell.swift */; };
+		8EE0996F25D37BB600097C92 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0996E25D37BB600097C92 /* DetailViewController.swift */; };
 		A41F4EA8E9314BAA836B2755 /* Pods_test_mvc_gabyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1DAD778C7A29B5A050FB36 /* Pods_test_mvc_gabyTests.framework */; };
 		FE6E61D908B2E69FEEB9FD09 /* Pods_test_mvc_gaby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B90F19D6E77BE3BE9E37EB /* Pods_test_mvc_gaby.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +65,9 @@
 		8E31D6EA25C625BA00F57DBA /* test_mvc_gabyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_mvc_gabyUITests.swift; sourceTree = "<group>"; };
 		8E31D6EC25C625BA00F57DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE0992E25CE335F00097C92 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8EE0996425D3756300097C92 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		8EE0996925D3766C00097C92 /* NewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
+		8EE0996E25D37BB600097C92 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B1420C0838F064E84B9878AC /* Pods-test-mvc-gabyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-mvc-gabyTests.release.xcconfig"; path = "Target Support Files/Pods-test-mvc-gabyTests/Pods-test-mvc-gabyTests.release.xcconfig"; sourceTree = "<group>"; };
 		CAF5EB94EBD968FB552E3253 /* Pods-test-mvc-gaby-test-mvc-gabyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-mvc-gaby-test-mvc-gabyUITests.release.xcconfig"; path = "Target Support Files/Pods-test-mvc-gaby-test-mvc-gabyUITests/Pods-test-mvc-gaby-test-mvc-gabyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F08008ED331B508827FD5017 /* Pods-test-mvc-gaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-mvc-gaby.debug.xcconfig"; path = "Target Support Files/Pods-test-mvc-gaby/Pods-test-mvc-gaby.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,11 +130,14 @@
 				8E31D6C725C625B900F57DBA /* SceneDelegate.swift */,
 				8E31D6C925C625B900F57DBA /* ViewController.swift */,
 				8E31D6CB25C625B900F57DBA /* Main.storyboard */,
+				8EE0996425D3756300097C92 /* NewViewController.swift */,
 				8E31D6D125C625BA00F57DBA /* Assets.xcassets */,
 				8E31D6D325C625BA00F57DBA /* LaunchScreen.storyboard */,
 				8E31D6D625C625BA00F57DBA /* Info.plist */,
 				8E31D6CE25C625B900F57DBA /* test_mvc_gaby.xcdatamodeld */,
 				8EE0992E25CE335F00097C92 /* TableViewCell.swift */,
+				8EE0996925D3766C00097C92 /* NewTableViewCell.swift */,
+				8EE0996E25D37BB600097C92 /* DetailViewController.swift */,
 			);
 			path = "test-mvc-gaby";
 			sourceTree = "<group>";
@@ -379,8 +388,11 @@
 				8EE0992F25CE335F00097C92 /* TableViewCell.swift in Sources */,
 				8E31D6CA25C625B900F57DBA /* ViewController.swift in Sources */,
 				8E31D6D025C625B900F57DBA /* test_mvc_gaby.xcdatamodeld in Sources */,
+				8EE0996525D3756300097C92 /* NewViewController.swift in Sources */,
+				8EE0996A25D3766C00097C92 /* NewTableViewCell.swift in Sources */,
 				8E31D6C625C625B900F57DBA /* AppDelegate.swift in Sources */,
 				8E31D6C825C625B900F57DBA /* SceneDelegate.swift in Sources */,
+				8EE0996F25D37BB600097C92 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

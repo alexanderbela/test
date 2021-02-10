@@ -21,7 +21,7 @@ class Person {
 
 
 class ViewController: UIViewController {
- 
+
     //var arrayUsers = ["gaby", "Aleu", "Cheque", "Juan", "Geraldo", "Ines", "Eila", "Min", "Alex", "Alexito"]
     var arrayUsers = ["gaby", "Aleu"]
     var arrayEmails = ["gaby@gmail.com", "alex@gmail.com"]
@@ -69,6 +69,15 @@ class ViewController: UIViewController {
         return num1
         
     }
+    
+    @IBAction func openNewTable(_ sender: UIButton) {
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "NewViewController") as! NewViewController
+        //vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
+        
+    }
+    
 }
 
 extension ViewController{
@@ -130,6 +139,8 @@ extension ViewController{
     }
     
     
+    
+    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
@@ -147,6 +158,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.emailLabel.text = emails
         return cell
         
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "DetailViewController") as! DetailViewController
+        vc.name = arrayUsers[indexPath.row]
+        present(vc, animated: true, completion: nil)
         
     }
     
